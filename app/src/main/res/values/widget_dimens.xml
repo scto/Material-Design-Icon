@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_padding_top">26.0dip</dimen>
+    <dimen name="abc_dialog_padding_bottom">6.0dip</dimen>
+    
+    <dimen name="search_toolbar_corner_radius">4dp</dimen>
+    <dimen name="icon_grid_item_size">82dp</dimen>
+    <dimen name="icon_grid_item_image_size">40dp</dimen>
+    <dimen name="icon_grid_detail_view_size">100dp</dimen>
+    
+    <dimen name="padding_tight">8dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_semi_expanded_height">64dp</dimen>
+
+    <dimen name="button_height">50dip</dimen>
+    <dimen name="button_bg_corner_radius">25dip</dimen>
+    <dimen name="button_text_size">16.0sp</dimen>
+    
+    <dimen name="dialog_btn_margin_vertical">10.0dip</dimen>
+    <dimen name="dialog_btn_margin_horizontal">13dip</dimen>
+    
+    <dimen name="dialog_pannel_vertical_padding">26dip</dimen>
+    <dimen name="dialog_pannel_horizontal_margin">26dip</dimen>
+    
+    <dimen name="dialog_list_preferred_item_height">53dip</dimen>
+    
+    <dimen name="edit_text_font_size">16.669983sp</dimen>
+    <dimen name="edit_text_border_radius_size">17.669983dip</dimen>
+    <dimen name="edit_text_radius_size">15.669983dip</dimen>
+    <dimen name="edit_text_padding_horizontal">15.699982dip</dimen>
+    <dimen name="edit_text_padding_vertical">15.699982dip</dimen>
+    <dimen name="edit_text_border_size">2.0dip</dimen>
+
+    <dimen name="seekbar_radius">8.25dip</dimen>
+    <dimen name="seekbar_height">33dip</dimen>
+    
+    <dimen name="card_bg_radius">12dip</dimen>
+    
+    <item type="dimen" name="background_dim">0.3</item>
+    
+    
+</resources>

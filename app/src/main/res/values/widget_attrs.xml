@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoNewLineLayout">
+        <attr name="horizontalSpace" format="dimension|reference"/>
+        <attr name="vertivalSpace" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="IconGridView"><attr format="color" name="igColor"/><attr format="boolean" name="igDash"/><attr format="boolean" name="igWithGrids"/><attr format="integer" name="igStyle">
+            <enum name="frame" value="0"/>
+            <enum name="cross" value="1"/>
+            <enum name="unionJack" value="2"/>
+            <enum name="materialLite" value="3"/>
+            <enum name="materialFull" value="4"/>
+        </attr></declare-styleable>
+    
+
+</resources>

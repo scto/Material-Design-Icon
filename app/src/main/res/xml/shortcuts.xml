@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_search_icon"
+        android:shortcutId="shortcut_search"
+        android:shortcutLongLabel="@string/shortcut_label_search_icon"
+        android:shortcutShortLabel="@string/shortcut_label_search_icon"
+		android:shortcutDisabledMessage="@string/shortcut_label_search_icon">
+        <intent
+            android:action="@string/action.shortcut.search"
+            android:targetClass="com.s1243808733.materialicon.ui.activity.MainActivity"
+            android:targetPackage="com.s1243808733.materialicon" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
+

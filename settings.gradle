@@ -1,0 +1,11 @@
+include ':app'
+include ':library:android-svg'
+include ':library:base-quick-adapter'
+include ':library:color-picker'
+include ':library:empty-view'
+include ':library:magic-indicator'
+include ':library:recyclerview-fastscroll'
+include ':library:utilcode'
+include ':library:view-injector'
+
+rootProject.name = "MaterialDesign-Icon"

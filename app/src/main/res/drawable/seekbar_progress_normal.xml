@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="fill_horizontal|center"
+        android:id="@android:id/background"
+        android:drawable="@drawable/seekbar_progress_bg" />
+    <item
+        android:gravity="fill_horizontal|center"
+        android:id="@android:id/progress">
+        <clip>
+            <shape
+                android:shape="rectangle">
+                <solid
+                    android:color="?colorAccent" />
+                <corners
+                    android:radius="@dimen/seekbar_radius" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+

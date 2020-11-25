@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Design Icon</string>
+    
+	<string name="ok">@android:string/ok</string>
+	<string name="yes">@android:string/yes</string>
+	<string name="no">@android:string/no</string>
+    <string name="cancel">@android:string/no</string>
+    <string name="copy">@android:string/copy</string>
+    
+	<string name="close">Close</string>
+	<string name="reload">Reload</string>
+	<string name="restart">Restart</string>
+	<string name="exit">Exit</string>
+	<string name="export">Export</string>
+	<string name="save">Save</string>
+	<string name="choose">Choose</string>
+	<string name="dip">dp</string>
+    <string name="multiplier">x</string>
+    <string name="open_source_license">Open source license</string>
+	
+    <string name="hint_search_icon">Search icon..</string>
+    
+    <string name="hint_icon_name">Icon name:</string>
+    <string name="hint_icon_size">Size:</string>
+    <string name="hint_icon_width">wide</string>
+    <string name="hint_icon_height">height</string>
+    <string name="hint_icon_color">Color:</string>
+    <string name="icon_use_tint">Use tint</string>
+    <string name="hint_export_path">Export path:</string>
+    <string name="more_options">More options</string>
+    <string name="hint_icon_alpha">Transparency:</string>
+    <string name="hint_options">Options:</string>
+    <string name="auto_mirrored">Auto adapt RTL layout</string>
+    
+    <string name="export_icon">Export icon</string>
+    <string name="export_type">Export Type</string>
+	<string name="export_to_image">Export to Picture</string>
+	<string name="export_to_vector">Export to Vector</string>
+	<string name="export_to_svg">Export to SVG</string>
+    <string name="export_failed">Export failed</string>
+    
+    <string name="message_please_input_icon_name">Please input the icon name</string>
+    <string name="message_please_input_icon_width">Please enter icon width</string>
+    <string name="message_please_input_icon_height">Please enter icon height</string>
+    <string name="message_icon_width_cannot_be_0">Icon width cannot be 0</string>
+    <string name="message_icon_height_cannot_be_0">Icon height cannot be 0</string>
+    <string name="message_path_not_is_directory">The path is not a directory</string>
+    <string name="message_please_input_export_path">Please enter the export path</string>
+    <string name="message_path_not_writable">The path cannot be written</string>
+   
+    <string name="message_copied_to_clipboard">Copied to the clipboard</string>
+    <string name="message_press_again_to_exit">Press again to exit</string>
+	<string name="message_search_no_page">No page</string>
+	
+    <string name="title_saved_to">Saved to</string>
+    <string name="title_choose_color">Select Color</string>
+    
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_btn_detail">Detail</string>
+    <string name="error_dialog_title_detail">Error details</string>
+    
+    <string name="title_no_write_permission">No write permission</string>
+    <string name="message_no_write_permission">Please grant the application write permission</string>
+    
+	<string name="shortcut_label_search_icon">Search icon</string>
+        
+</resources>

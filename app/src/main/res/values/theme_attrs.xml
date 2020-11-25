@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="buttonBackground" format="reference" />
+    <attr name="textColorButton" format="reference|color" />
+    <attr name="primaryButtonTextColor" format="reference|color" />
+    <attr name="primaryButtonBackground" format="reference" />
+    <attr name="buttonBarDefaultButtonStyle" format="reference" />
+    
+</resources>

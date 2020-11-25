@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="@dimen/dialog_horizontal_padding"
+	android:paddingTop="@dimen/dialog_top_padding"
+	android:paddingRight="@dimen/dialog_horizontal_padding"
+	android:paddingBottom="@dimen/dialog_bottom_padding">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fileName"
+		android:singleLine="true"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/export_path"
+		android:singleLine="false"
+		android:maxLines="6"
+		android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/fragment_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="?android:attr/windowBackground"
+	android:fitsSystemWindows="false">
+
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/app_bar_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:elevation="0dp"
+		android:background="?colorPrimary">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/toolbar_semi_expanded_height"
+			app:layout_scrollFlags="scroll|enterAlways">
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/exposedSearchToolbarBg"
+				android:background="@drawable/search_toolbar_bg"
+				android:layout_margin="0dp">
+
+				<com.s1243808733.materialicon.ui.widget.ExposedSearchToolbar
+					android:id="@+id/exposedSearchToolbar"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_gravity="center"
+					android:elevation="@dimen/toolbar_elevation"
+					android:background="?attr/selectableItemBackground"
+					android:contentDescription="@string/hint_search_icon"
+					android:visibility="invisible"/>
+
+			</FrameLayout>
+
+		</FrameLayout>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/container"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

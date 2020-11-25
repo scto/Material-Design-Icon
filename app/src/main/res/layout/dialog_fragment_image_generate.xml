@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingLeft="24dp"
+			android:paddingTop="10dp"
+			android:paddingRight="24dp"
+			android:paddingBottom="10dp">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/name_view">
+
+				<androidx.appcompat.widget.AppCompatTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/hint_icon_name"/>
+
+				<com.s1243808733.materialicon.ui.widget.CustomEditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/name"
+					android:layout_marginTop="10dp"
+                    android:singleLine="true"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:id="@+id/size_view">
+
+				<androidx.appcompat.widget.AppCompatTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/hint_icon_size"/>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:layout_marginTop="10dp">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical">
+
+						<com.s1243808733.materialicon.ui.widget.CustomEditText
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/icon_width"
+							android:minEms="4"
+							android:maxEms="4"
+							android:singleLine="true"
+							android:hint="@string/hint_icon_width"
+                            android:inputType="number"/>
+
+						<androidx.appcompat.widget.AppCompatTextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/dip"/>
+
+					</LinearLayout>
+
+					<androidx.appcompat.widget.AppCompatTextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/multiplier"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="center"/>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical">
+
+						<com.s1243808733.materialicon.ui.widget.CustomEditText
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/icon_height"
+							android:minEms="4"
+							android:maxEms="4"
+							android:singleLine="true"
+							android:hint="@string/hint_icon_height"
+                            android:inputType="number"/>
+
+						<androidx.appcompat.widget.AppCompatTextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/dip"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/color_view"
+				android:layout_marginTop="10dp">
+
+				<androidx.appcompat.widget.AppCompatTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/hint_icon_color"/>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:layout_marginTop="10dp">
+
+					<com.s1243808733.materialicon.ui.widget.ColorBackgroundTextView
+						android:layout_width="wrap_content"
+						android:layout_height="41dp"
+						android:gravity="center"
+						android:paddingLeft="16dp"
+						android:paddingRight="16dp"
+						android:id="@+id/select_color"
+						android:clickable="true"
+						android:textSize="15sp"
+						android:foreground="?android:selectableItemBackground"/>
+
+					<androidx.appcompat.widget.AppCompatCheckBox
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="16dp"
+						android:text="@string/icon_use_tint"
+						android:id="@+id/use_tint"
+						android:checked="true"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/hint_export_path"/>
+
+				<com.s1243808733.materialicon.ui.widget.CustomEditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/export_path"
+					android:layout_marginTop="10dp"
+                    android:singleLine="true"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+

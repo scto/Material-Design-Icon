@@ -1,0 +1,85 @@
+[
+  {
+    "name": "AndroidUtilCode",
+    "author": "Copyright 2017 Blankj",
+    "license": "Apache-2.0 License",
+    "describes": "Android developers should collect the following utils(updating).",
+    "url": "https://github.com/Blankj/AndroidUtilCode"
+  },
+  {
+    "name": "Material Design",
+    "author": "Templarian",
+    "describes": "5400+ Material Design Icons from the Community",
+    "url": "https://github.com/Templarian/MaterialDesign"
+  },
+  {
+    "name": "androidsvg",
+    "author": "BigBadaboom",
+    "license": "Apache-2.0 License",
+    "describes": "AndroidSVG is a SVG parser and renderer for Android. It has almost complete support for the static visual elements of the SVG 1.1 and SVG 1.2 Tiny specifications (except for filters).",
+    "url": "https://github.com/BigBadaboom/androidsvg"
+  },
+  {
+    "name": "SVG-Android",
+    "author": "Copyright (C) 2017, Megatron King",
+    "license": "Apache-2.0 License",
+    "describes": "SVG-Android is a support library for showing svg images in android 4.0+",
+    "url": "https://github.com/MegatronKing/SVG-Android"
+  },
+  {
+    "name": "Gson",
+    "author": "Copyright 2008 Google Inc.",
+    "license": "Apache-2.0 License",
+    "describes": "A Java serialization/deserialization library to convert Java Objects into JSON and back",
+    "url": "https://github.com/google/gson"
+  },
+  {
+    "name": "MagicIndicator",
+    "author": "Copyright (c) 2016 hackware1993",
+    "license": "MIT License",
+    "describes": "A powerful, customizable and extensible ViewPager indicator framework. As the best alternative of ViewPagerIndicator, TabLayout and PagerSlidingTabStrip.",
+    "url": "https://github.com/hackware1993/MagicIndicator"
+  },
+  {
+    "name": "BaseRecyclerViewAdapterHelper",
+    "author": "Copyright (c) 2019 陈宇明",
+    "license": "MIT License",
+    "describes": "Powerful and flexible RecyclerView Adapter, Please feel free to use this.",
+    "url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper"
+  },
+  {
+    "name": "RecyclerView-FastScroll",
+    "author": "Copyright (C) 2016 Tim Malseed",
+    "license": "Apache-2.0 License",
+    "describes": "A simple FastScroller for Android\u0027s RecyclerView.",
+    "url": "https://github.com/timusus/RecyclerView-FastScroll"
+  },
+  {
+    "name": "EmptyView",
+    "author": "Copyright 2017 Fatih Santalu",
+    "license": "Apache-2.0 License",
+    "describes": "A view that displays states of screen like loadingType, error, empty etc.",
+    "url": "https://github.com/santalu/empty-view"
+  },
+  {
+    "name": "Color Picker",
+    "author": "Copyright 2014-2017 QuadFlask",
+    "license": "Apache-2.0 License",
+    "describes": "simple android color picker with color wheel and lightness bar.",
+    "url": "https://github.com/QuadFlask/colorpicker"
+  },
+  {
+    "name": "dom4j",
+    "author": "Copyright 2001-2016 (C) MetaStuff, Ltd. and DOM4J contributors.",
+    "license": "Apache-2.0 License",
+    "describes": "dom4j is an open source framework for processing XML which is integrated with XPath and fully supports DOM, SAX, JAXP and the Java platform such as Java 2 Collections.",
+    "url": "https://github.com/dom4j/dom4j"
+  },
+  {
+    "name": "FreeReflection",
+    "author": "Copyright (c) 2018 weishu",
+    "license": "MIT License",
+    "describes": "A library that lets you use reflection without any restriction above Android P",
+    "url": "https://github.com/tiann/FreeReflection"
+  }
+]

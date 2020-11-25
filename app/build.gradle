@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.s1243808733.materialicon"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 5
+        versionName "1.2.2.2"
+        multiDexEnabled false
+    }
+    
+    signingConfigs {
+		
+	}
+    
+    lintOptions {
+        disable "InvalidPackage"
+        disable "MissingTranslation"
+   }
+    
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled false 
+            //signingConfig signingConfigs.release
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true 
+            //signingConfig signingConfigs.release
+        }
+    }
+    
+}
+
+dependencies {
+	api project(':library:android-svg')
+	api project(':library:magic-indicator')
+    
+	api project(':library:base-quick-adapter')
+	api project(':library:recyclerview-fastscroll')
+	api project(':library:empty-view')
+	api project(':library:view-injector')
+    
+    api project(':library:color-picker')
+    
+	api 'com.google.android.material:material:1.2.1'
+    
+	api 'me.weishu:free_reflection:3.0.1'
+    api 'com.google.code.gson:gson:2.8.5'
+    
+    implementation('com.blankj:utilcodex:1.30.4') {
+        exclude group: 'com.google.code.gson'
+        exclude group: 'org.jetbrains.kotlin', module:'kotlin-android-extensions-runtime'
+    }
+    
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_padding">16dp</dimen>
+    <dimen name="activity_vertical_padding">16dp</dimen>
+    
+    <dimen name="dialog_horizontal_padding">24dp</dimen>
+    <dimen name="dialog_top_padding">10dp</dimen>
+    <dimen name="dialog_bottom_padding">10dp</dimen>
+    
+    <item type="dimen" name="dialog_min_width">100%</item>
+    
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/fragment_icon"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<net.lucode.hackware.magicindicator.MagicIndicator
+		android:id="@+id/magic_indicator"
+		android:layout_width="match_parent"
+		android:layout_height="53dp"
+		android:background="?android:attr/colorPrimary"
+		android:elevation="@dimen/toolbar_elevation"/>
+
+	<androidx.drawerlayout.widget.DrawerLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/drawer_layout"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<include
+			layout="@layout/fragment_main_content"/>
+
+		<RelativeLayout
+            android:id="@+id/drawer_start_view"
+            android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/nav_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?android:windowBackground"
+                app:itemIconTint="@color/nav_item_icon"
+                app:itemTextAppearance="@style/TextAppearance.Navigation.ItemText"/>
+            
+		</RelativeLayout>
+
+	</androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
+

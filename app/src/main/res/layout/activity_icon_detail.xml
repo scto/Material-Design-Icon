@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="bottom|center"
+	android:id="@+id/root">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/dialog_bg"
+		android:layout_centerInParent="true"
+		android:orientation="vertical"
+		android:clickable="true"
+		android:elevation="16dp"
+		android:id="@+id/dialogBackground">
+
+		<include
+			layout="@layout/abc_alert_dialog_title_custom"/>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="24dp"
+			android:paddingTop="16dp"
+			android:paddingRight="24dp"
+			android:paddingBottom="16dp"
+			android:id="@+id/icon_layout">
+
+			<FrameLayout
+				android:layout_width="@dimen/icon_grid_detail_view_size"
+				android:layout_height="@dimen/icon_grid_detail_view_size"
+				android:layout_centerInParent="true">
+
+				<com.s1243808733.materialicon.ui.view.IconGridView
+					android:id="@+id/icon_grid"
+					style="@style/IconGrid"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:visibility="invisible"/>
+
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/svg_view"
+					android:transitionName="icon"/>
+
+			</FrameLayout>
+
+		</RelativeLayout>
+
+		<include
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			layout="@layout/abc_alert_dialog_button_bar_custom"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

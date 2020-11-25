@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="edit_text_bg_color">#FF333333</color>
+
+    <color name="progressBackground">#FF333333</color>
+
+    <color name="button_bg_primary_color_disabled">#0fffffff</color>
+    <color name="button_bg_primary_color_pressed">#FFEB3C77</color>
+
+    <color name="disabled_text">#33ffffff</color>
+    <color name="button_text_color">#e6ffffff</color>
+
+    <color name="button_text_color_guide_normal">#ffffffff</color>
+    <color name="button_text_color_guide_disabled">#4dffffff</color>
+
+    <color name="button_bg_color_normal">#14ffffff</color>
+    <color name="button_bg_color_pressed">#0fffffff</color>
+    
+    <color name="search_toolbar_color">#ffffff</color>
+    <color name="icon_grid_item">#E0E0E0</color>
+    
+    <color name="fastscroll_track_color">#ffffff</color>
+    <color name="fastscroll_thumb_inactive_color">#ffffff</color>
+    
+    <color name="card_bg">#FF333333</color>
+    <color name="card_stroke">#333333</color>
+    
+</resources>

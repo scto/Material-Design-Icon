@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    //buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        minSdkVersion 14
+        versionCode 18
+        versionName "2.0.1"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+   implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+}
+
+//To deploy, re-comment following line & run ./gradlew clean assembleRelease install bintrayUpload
+//apply from : 'deploy.gradle'
